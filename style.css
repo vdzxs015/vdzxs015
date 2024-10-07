@@ -1,0 +1,153 @@
+* {margin: 0; 
+padding: 0;
+}
+
+html, body{
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
+}
+@font-face {
+    font-family: 'elon';
+    src: url('../font/TESLA.ttf');
+}
+:root {
+    --primary-color: #e4e4e4;
+    --secondary-color: #4356A2;
+    --tertiary-color: #04C4D9;
+    --quartenary-color: #F0F944;
+    --quinary-color: #F23322;
+    --light-color: rgb(224, 224, 224);
+    --dark-color: rgba(10, 10, 10, 0.74);
+    
+    --small-size: 4px;
+    --medium-size: 8px;
+    --lartge-size: 16px;
+    --extra-large-size: 32px;
+}
+
+section {
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://cdn.motor1.com/images/mgl/pbY0LJ/s1/tesla-evs-at-v4-supercharging-station.-from-left-model-3-model-s-cybertruck-model-x-and-model-y.webp');
+}
+.bg-image-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://media.ed.edmunds-media.com/tesla/model-y/2024/oem/2024_tesla_model-y_4dr-suv_performance_fq_oem_1_1600.jpg');
+}
+.bg-image-3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://www.motortrend.com/uploads/2023/12/2024-Tesla-Model-X-rear-view-72.jpg');
+}
+.bg-image-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://media.ed.edmunds-media.com/tesla/model-s/2024/oem/2024_tesla_model-s_sedan_plaid_fq_oem_1_1600.jpg');
+}
+.bg-image-5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://wallpapercave.com/wp/wp4989675.jpg');
+}
+
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.descricao {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.descricao .titulo {
+    font-size: 3rem;
+}
+
+.descricao .subtitulo {
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.descricao .preco {
+    font-size: 1.1rem;
+}
+.buttons {
+display: flex;
+justify-content: center;
+}
+
+.buttons .button1,
+.buttons .button2{
+    width: 290px;
+    height: 40px;
+    border-radius: var(--small-size);
+    margin: var(--medium-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .button1 {
+    background: var(--secondary-color);
+}
+.buttons .button2{
+background: var(--primary-color);
+color: rgba(0, 0, 0, 0.822);
+}
+
+.logo {
+font-family: 'elon';
+letter-spacing: var(--medium-size);
+font-size: 1.2rem;
+justify-content: flex-start;
+}
+
+.logo p {
+    margin: var(--large-size);
+}
+
+.menu {
+justify-content: center;
+}
+
+.menu p {
+    margin: var(--lartge-size);
+}
+
+.icons {
+justify-content: flex-end;
+}
+
+.icons p {
+    margin: var(--lartge-size);
+}
+
+.icons img {
+    width: 25px;
+    color: white;
+    margin-right: 32px;
+}
